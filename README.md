@@ -1,3 +1,3 @@
-# AIDL_A_02_Neural_Networks_and_Deep_Learning
+# Brain Cancer MRI classification
 
 This repo will hold the assignments of the course
