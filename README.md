@@ -27,6 +27,8 @@ The project explores both custom CNN architectures and transfer learning approac
 
 ## 📊 Dataset
 
+**Source**: [Brain Cancer - MRI dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+
 The dataset consists of MRI images organized into three classes:
 - Images are preprocessed to 224x224 pixels (299x299 for InceptionV3)
 - RGB color format
@@ -39,6 +41,13 @@ The dataset consists of MRI images organized into three classes:
 - Image resizing and normalization
 - Support for both Google Colab and local environments
 - Optional Google Drive integration
+
+### Download the Dataset
+
+1. Visit the [Kaggle dataset page](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+2. Download the dataset (you'll need a Kaggle account)
+3. Extract the files to your project directory
+4. The dataset should be organized with folders for each tumor type
 
 ## 🧠 Models
 
@@ -236,9 +245,17 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- Dataset providers for brain MRI images
+- Dataset: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) by Masoud Nickparvar on Kaggle
 - TensorFlow and Keras teams for the deep learning framework
 - Pre-trained model architectures from ImageNet
+
+### Dataset Citation
+
+If you use this dataset in your research, please cite:
+```
+Nickparvar, M. (2021). Brain Tumor MRI Dataset. 
+Available at: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+```
 
 ## 📧 Contact
 
